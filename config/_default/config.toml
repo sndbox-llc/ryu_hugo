@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = "https://sndbox-llc.github.io/ryu_hugo/"
 title = "Sandbox LLC"
 author = "合同会社サンドボックス"
 copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE\">MIT</a> Licensed."
