@@ -1,26 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ .Language.LanguageCode | default site.Language.LanguageCode }}">
 {{ partial "head/head.html" . }}
-{{ if eq .Kind "home" -}}
-    {{ .Scratch.Set "class" "home" -}}
-{{ else if eq .Kind "404" -}}
-    {{ .Scratch.Set "class" "error404" -}}
-{{ else if eq .Kind "page" -}}
-    {{ .Scratch.Set "class" .Type -}}
-    {{ .Scratch.Add "class" " single" -}}
-{{ else -}}
-    {{ .Scratch.Set "class" .Type -}}
-    {{ .Scratch.Add "class" " list" -}}
-{{ end -}}
+
 <body class="{{ .Scratch.Get `class` }} d-flex flex-column min-vh-100">
-    {{- partial "header/header.html" . -}}
-    <div id="content">
-        {{ if and (.Site.Params.options.breadCrumb) (ne .Kind "home") -}}
-            {{- partial "header/breadcrumb.html" . -}}
-        {{ end }}
-        {{- block "main" . }}{{- end }}
+  {{ partial "header/header.html" . }}
+
+  <div id="content" class="container my-4">
+    {{ if and (.Site.Params.options.breadCrumb) (ne .Kind "home") }}
+      {{ partial "header/breadcrumb.html" . }}
+    {{ end }}
+
+    <div class="row">
+      <!-- 左：メインコンテンツ -->
+      <main class="col-md-9">
+        {{ block "main" . }}{{ end }}
+      </main>
+
+      <!-- 右：サイドバー -->
+      <aside class="col-md-3">
+        {{ partial "sidebar/sidebar.html" . }}
+      </aside>
     </div>
-    {{ partial "footer/footer.html" . }}
-    {{ partial "footer/script-footer.html" . }}
+  </div>
+
+  {{ partial "footer/footer.html" . }}
+  {{ partial "footer/script-footer.html" . }}
 </body>
 </html>

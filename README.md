@@ -12,7 +12,8 @@ Theme for a blazing fast static website and/or blog using bootstrap 5.
 
 ## Features
 
-- 🛡️ Security aware
+- 🛡️ Security  hoge
+- 
   
   Get A+ scores on Mozilla Observatory out of the box. Easily change the default Security Headers to suit your needs.
 

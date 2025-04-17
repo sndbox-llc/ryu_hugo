@@ -3,17 +3,8 @@
 {{ end -}}
 
 <header class="main-header">
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
-
-      <!-- Brand -->
-      <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
-        {{ if isset .Site.Params "mainmenulogo" }}
-        <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" width="30" height="24"
-          class="d-inline-block align-text-top">
-        {{ end }}
-        {{ .Site.Title }}
-      </a>
 
       <!-- Menu Toggler -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,4 +105,32 @@
       </div>
     </div>
   </nav>
+</header>
+
+
+<header class="py-4 border-bottom" style="background: url('/images/deco-bg.png') no-repeat top right; background-size: contain;">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <!-- 左側：ロゴ＆キャッチコピー -->
+    <div class="text-center text-md-start mb-3 mb-md-0">
+      <a href="/" style="text-decoration: none; color: inherit;">
+        <h1 class="h2 fw-bold mb-2" style="font-family: 'Georgia', serif;">
+          <span style="font-style: italic;">Hair Salon</span>
+          <span style="color: #a7361f; font-weight: bold; font-size: 1.5em;">隆</span>
+        </h1>
+      </a>
+      
+
+      <p class="lead mb-1" style="color: #a7361f;">みなさまのきれいのために…</p>
+      <p class="mb-0 small text-muted">居心地の良い美容室をモットーに<br>目配り 気配り 心配りで対応いたしております。</p>
+    </div>
+
+    <!-- 右側：営業時間・定休日 -->
+    <div class="text-md-end text-center">
+      <p class="fw-bold mb-1" style="color: #a7361f;">定休日</p>
+      <p class="mb-1" style="color: #a7361f;">毎週火曜日・第三月曜日</p>
+      <p class="mb-0" style="color: #a7361f;">営業時間 9:00〜17:00</p>
+    </div>
+
+  </div>
 </header>
