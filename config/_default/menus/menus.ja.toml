@@ -22,18 +22,6 @@ weight = 40
 # parent = "blog"
 
 # [[main]]
-# name = "Hugo"
-# url = "tags/hugo"
-# weight = 20
-# parent = "blog"
-
-# [[main]]
-# name = "Bootstrap"
-# url = "tags/bootstrap"
-# weight = 30
-# parent = "blog"
-
-# [[main]]
 # identifier = "docs"
 # name = "Docs"
 # url = "page"

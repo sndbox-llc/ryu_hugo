@@ -1,10 +1,6 @@
 # Site Params
 
 # Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
-# https://gohugo.io/templates/internal/#open-graph
-# https://gohugo.io/templates/internal/#twitter-cards
-# https://schema.org/Thing
-# https://schema.org/Article
 description = "栃木県宇都宮市にあるヘアサロン RYUの公式サイトです。カット・パーマ・カラーなどのメニューや、サロンの雰囲気をお伝えします。"
 keywords = ["RYU", "宇都宮", "ヘアサロン", "美容室", "カット", "パーマ", "カラー"]
 images = ['images/site-feature-image.png']
@@ -21,8 +17,8 @@ alertText = "Introducing this new service! <a class=\"alert-link stretched-link\
 
 # Pre-footer
 footerAbout = true
-footerAboutTitle = "Few Words About Us"
-footerAboutText = "We protect your website so you can provide a safe environment to build trust and improve the user experience of your visitors.<br/><br/>Salvus Site is the partner that you can rely on for preventive and reactive cybersecurity."
+footerAboutTitle = "美容室RYU"
+footerAboutText = "栃木県宇都宮市の美容室RYUです。カット・パーマ・カラーなどのメニューや、サロンの雰囲気をお伝えします。"
 
 [options]
   bootStrapJs = true
