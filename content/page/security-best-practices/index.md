@@ -1,7 +1,7 @@
 ---
 title: "セキュリティ 🔒"
 description: "Improve code health of your web page following these best practices. Prevent security vulnerabilities"
-draft: false
+draft: true
 date: 2024-01-22T13:35:02+09:00
 tags: ["Featured"]
 keywords: ["security best practices","external links","does not use https","links to cross-origin destinations are unsafe","includes front-end JavaScript libraries with known security vulnerabilities","ensure CSP is effective against XSS attacks","Content Security Policy","csp"]
