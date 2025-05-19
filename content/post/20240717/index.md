@@ -2,7 +2,7 @@
 title: "縮毛矯正＆縮デジ　開発秘話"
 description: "（水に３００万円投資した美容室）"
 date: 2024-07-17T13:00:00
-draft: false
+images: ['p1.png']
 ---
 
 

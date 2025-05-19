@@ -1,6 +1,5 @@
 ---
 title: "メニュー"
-draft: false
 ---
 
 

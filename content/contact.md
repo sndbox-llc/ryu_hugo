@@ -1,6 +1,5 @@
 ---
 title: "店舗案内"
-draft: false
 menu:
   main:
     weight: 90

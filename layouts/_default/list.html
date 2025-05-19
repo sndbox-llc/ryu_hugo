@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <div class="container py-3">
 
     {{ if or .Site.Params.options.listCategoryFilter .Site.Params.options.listTagFilter }}
@@ -33,19 +32,21 @@
             <div class="row g-0">
 
                 <div class="col-md-4 d-flex align-items-center">
-                    {{ if isset .Params "images" }}
-                        {{ with .Resources.GetMatch (index .Params.Images 0) }}
+                    <div class="ratio ratio-16x9">
+                        {{ if isset .Params "images" }}
+                            {{ with .Resources.GetMatch (index .Params.Images 0) }}
                             {{ $image := .Fill "600x300 Center webp" }}
-                            <img class="img-fluid rounded p-1" src="{{ $image.RelPermalink }}" loading="lazy" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="featured image {{.Title }}">
+                            <img class="img-fluid rounded" src="{{ $image.RelPermalink }}" alt="featured image {{$.Title}}" loading="lazy" width="{{ $image.Width }}" height="{{ $image.Height }}">
+                            {{ end }}
+                        {{ else }}
+                            <img class="img-fluid rounded" src="/images/icatch.jpg" alt="default image" loading="lazy">
                         {{ end }}
-                    {{ else }}
-                        <img class="img-fluid rounded p-1" src="{{ "images/icatch.jpg" | relURL }}" loading="lazy" width="600" height="300" alt="default image">
-                    {{ end }}
+                    </div>
                 </div>
 
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h2 class="card-title text-primary">{{ .Title }}</h2>
+                        <h2 class="card-title myCardTitle">{{ .Title }}</h2>
 
                         <div class="card-subtitle text-muted mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="feather"><use href="{{ `images/feather/feather-sprite.svg#calendar` | relURL }}"/></svg>
