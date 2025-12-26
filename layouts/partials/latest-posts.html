@@ -6,7 +6,7 @@
             <div class="card h-100">
                 <div class="card-body">
                     <h4 class="card-title myCardTitle">
-                        <a class="stretched-link text text-decoration-none " style="color:brown"  href="{{ .RelPermalink }}">
+                        <a class="stretched-link text text-decoration-none text-danger"   href="{{ .RelPermalink }}">
                             {{ .Title }}
                         </a>
                     </h4>
@@ -23,7 +23,7 @@
                         {{ end }}
                     </p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer bg-white border-0">
                     <small class="text-muted">{{ .Date | time.Format ":date_long" }}</small>
                 </div>
             </div>
