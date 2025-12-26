@@ -20,6 +20,7 @@ menu:
     <p><strong>定休日：</strong> 毎週火曜・第ニ月曜</p>
     <p><strong>駐車場：</strong> 店舗南側 12台</p>
     <p><strong>予約電話：</strong> <a href="tel:0286539880">028-653-9880</a></p>
+    <a class="btn btn-outline-danger" href="https://szut8d.b-merit.jp/g8xvfm/web" role="button">ネット予約はこちら</a>
     <p class="text-muted small">※早朝予約（+30分ごとに¥500）も承ります。</p>
   </div>
 </div>
@@ -77,7 +78,9 @@ menu:
     <p><strong>定休日：</strong> 毎週火曜・第ニ月曜</p>
     <p><strong>駐車場：</strong> 12台</p>
     <p><strong>電話番号：</strong> <a href="tel:0286381828">028-638-1828</a></p>
+    <a class="btn btn-outline-danger" href="https://szut8d.b-merit.jp/xf2h97/web" role="button">ネット予約はこちら</a>
     <p class="text-muted small">※早朝予約（+30分ごとに¥500）も承ります。</p>
+
   </div>
 </div>
 
