@@ -93,12 +93,6 @@ menu:
 </p>
 </div>
 </div>
-<!--
-<div class="row mb-4">
-  <div class="col-md-12">
-    <p>お客様の生活スタイル・趣味・肌や瞳の色までトータルに判断し、最適なヘアスタイルをご提案いたします。</p>
-  </div>
-</div>
 <div class="row g-3 mb-4">
   <div class="col-md-4">
     <img src="/images/shop/chuoNaisou1.jpg" alt="受付" class="img-fluid rounded shadow-sm">
@@ -114,4 +108,3 @@ menu:
     <p class="text-center small mt-2">12台駐車可能です。</p>
   </div>
 </div>
--->
