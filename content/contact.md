@@ -1,5 +1,5 @@
 ---
-title: "店舗案内"
+title: 店舗案内
 menu:
   main:
     weight: 90
@@ -21,7 +21,7 @@ menu:
     <p><strong>駐車場：</strong> 店舗南側 12台</p>
     <p><strong>予約電話：</strong> <a href="tel:0286539880">028-653-9880</a></p>
     <a class="btn btn-outline-danger" href="https://szut8d.b-merit.jp/g8xvfm/web" role="button">ネット予約はこちら</a>
-    <p class="text-muted small">※早朝予約（+30分ごとに¥500）も承ります。</p>
+    <p class="text-muted small">※早朝予約（+30分ごとに¥1100）も承ります。</p>
   </div>
 </div>
 
@@ -31,7 +31,6 @@ menu:
   <div class="col-md-12">
     <p>セット面7台、シャンプー台3面、すべての席に<iPad>を完備。<br>
     パーマやカラーの待ち時間には映画などの映像サービスをご利用いただけます。</p>
-    <p>また、丁寧なシャンプーと指圧マッサージが人気。セット面でも10分間の腕〜肩マッサージを施術しております。</p>
   </div>
 </div>
 
@@ -87,7 +86,6 @@ menu:
 <div class="row mb-4">
   <div class="col-md-12">
     <p>お客様の生活スタイル・趣味・肌や瞳の色までトータルに判断し、最適なヘアスタイルをご提案いたします。</p>
-    <p>指圧マッサージやiPadによる映画鑑賞など、リラックスした時間をお過ごしいただけるのも魅力です。</p>
   </div>
 </div>
 

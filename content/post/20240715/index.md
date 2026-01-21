@@ -1,6 +1,6 @@
 ---
-title: "Hair Salon 隆　インスタはじめました！"
-description: "宇都宮市のHair Salon 隆がインスタグラムを開設。スタイル写真やキャンペーン情報をタイムリーに発信していきます。"
+title: Hair Salon 隆　インスタはじめました！
+description: 宇都宮市のHair Salon 隆がインスタグラムを開設。スタイル写真やキャンペーン情報をタイムリーに発信していきます。
 date: 2024-07-15T13:00:00
 images: ["insta.webp"]
 ---
