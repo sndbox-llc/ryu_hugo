@@ -85,10 +85,20 @@ menu:
 
 <div class="row mb-4">
   <div class="col-md-12">
+
+<p class="text-muted">
+セット面８台、シャンプー台3面、ネイルスペース２面、アイリストスペース１部屋。<br>
+まつげパーマ・アイブロウ(眉)・マツエク・パリジェンヌなど豊富なメニューを取り揃えてます。<br>
+ネイル＝パラジェルの正しい技術と知識の習得を認められたスタッフが在籍しているパラジェル登録店。
+</p>
+</div>
+</div>
+<!--
+<div class="row mb-4">
+  <div class="col-md-12">
     <p>お客様の生活スタイル・趣味・肌や瞳の色までトータルに判断し、最適なヘアスタイルをご提案いたします。</p>
   </div>
 </div>
-
 <div class="row g-3 mb-4">
   <div class="col-md-4">
     <img src="/images/shop/chuoNaisou1.jpg" alt="受付" class="img-fluid rounded shadow-sm">
@@ -97,7 +107,6 @@ menu:
     <img src="/images/shop/chuoNaisou2.jpg" alt="待合" class="img-fluid rounded shadow-sm">
   </div>
 </div>
-
 <div class="row mb-4">
   <div class="col-md-6">
     <h5 class="text-center">駐車場</h5>
@@ -105,3 +114,4 @@ menu:
     <p class="text-center small mt-2">12台駐車可能です。</p>
   </div>
 </div>
+-->
