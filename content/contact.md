@@ -78,7 +78,7 @@ menu:
     <p><strong>駐車場：</strong> 12台</p>
     <p><strong>電話番号：</strong> <a href="tel:0286381828">028-638-1828</a></p>
     <a class="btn btn-outline-danger" href="https://szut8d.b-merit.jp/xf2h97/web" role="button">ネット予約はこちら</a>
-    <p class="text-muted small">※早朝予約（+30分ごとに¥500）も承ります。</p>
+    <p class="text-muted small">※早朝予約（+30分ごとに¥1100）も承ります。</p>
 
   </div>
 </div>
