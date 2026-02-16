@@ -10,7 +10,7 @@ images: ['app.png']
 ![使いかた](usage.png)
 
 
-## 直接予約をする場合は店舗の右のURLをタップしてください。{#tap_store_url}
+## 直接予約をする場合は店舗の右のURLをタップしてください。 {#tap_store_url}
 
 
 <dl class="basic">

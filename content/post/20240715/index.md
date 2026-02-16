@@ -5,14 +5,14 @@ date: 2024-07-15T13:00:00
 images: ["insta.webp"]
 ---
 
-## Hair Salon 隆、公式Instagramを開設しました！{#salon_ryu_instagram}
+## Hair Salon 隆、公式Instagramを開設しました！ {#salon_ryu_instagram}
 
 このたび「Hair Salon 隆」では、公式Instagramアカウントを開設いたしました✨
 
 サロンでの日常や、最新スタイル、トレンドカット、カラー施術のビフォーアフターなどを発信してまいります。  
 美容室選びにお悩みの方、カットやカラーの参考にしたい方は、ぜひお気軽にご覧ください。
 
-### ✅ 発信内容の一例{#salon_ryu_instagram_examples}
+### ✅ 発信内容の一例 {#salon_ryu_instagram_examples}
 
 - サロン内の雰囲気や施術の様子  
 - 人気のヘアスタイル紹介  
@@ -25,7 +25,7 @@ Instagramを通じて、Hair Salon 隆の魅力をリアルタイムでお届け
 
 ---
 
-### 🔗 アカウントはこちら{#salon_ryu_instagram_link}
+### 🔗 アカウントはこちら {#salon_ryu_instagram_link}
 
 <a class="btn btn-outline-primary" href="https://www.instagram.com/hair.salon.ryu/" target="_blank" rel="noopener">▶ Hair Salon 隆 公式Instagramへ</a>
 
